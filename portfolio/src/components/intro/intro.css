@@ -1,0 +1,30 @@
+.intro {
+  display: flex;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.intro-left {
+  flex: 1;
+}
+
+.intro-right {
+  flex: 1;
+} 
+
+.intro-left-wrapper {
+  padding: 50px;
+}
+
+.intro-intro {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.intro-name {
+  font-size: 60px;
+}
+
+.intro-title-item {
+  height: 50px;
+}
