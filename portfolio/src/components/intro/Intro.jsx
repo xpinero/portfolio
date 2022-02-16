@@ -1,6 +1,7 @@
 import React from 'react'
 import './intro.css'
-import Me from '../../img/Me.jpg'
+import Me from '../../img/Me-bg.png'
+import { BsArrowDownUp } from "react-icons/bs";
 
 const intro = () => {
   return (
@@ -23,6 +24,7 @@ const intro = () => {
             specializing in creating stylish, modern websites, web services and online stores.
           </p>
         </div>
+        <BsArrowDownUp className='intro-scroll'/>
       </div>
       <div className='intro-right'>
         <div className='intro-background'></div>
