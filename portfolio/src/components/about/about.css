@@ -1,0 +1,81 @@
+.about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.about-left {
+  flex:1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: crimson;
+  height: 100%;
+}
+
+.about-right {
+  flex:1;
+}
+
+.about-card.bg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: darkcyan;
+}
+
+.about-card {
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-title {
+  font-weight: 400;
+}
+
+.about-sub {
+  margin: 10px 0px;
+}
+
+.about-desc {
+  font-weight: 300;
+}
+
+.about-hobby {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.about-hobby-image {
+  width: 700px;
+  height: 150px;
+  border-radius: 50px;
+}
+.about-hobby-text {
+  width: 70%;
+}
+
+.about-hobby-title {
+  font-weight: bold;
+  color: gray;
+  margin: 10px 0px;
+}
+
+.about-hobby-desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
